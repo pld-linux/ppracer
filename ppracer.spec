@@ -3,7 +3,7 @@ Summary(pl):	Zje¿d¿aj z Tuksem w górzystym terenie!
 Summary(pt_BR):	Corra montanha abaixo com o Tux!
 Name:		ppracer
 Version:	0.2.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.berlios.de/ppracer/%{name}-%{version}.tar.bz2
