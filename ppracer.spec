@@ -6,9 +6,9 @@ Version:	0.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://download.berlios.de/%{name}/%{name}-%{version}-2.tar.bz2
+Source0:	http://download.berlios.de/ppracer/%{name}-%{version}-2.tar.bz2
 # Source0-md5:	c16e0ca393d43e663ee431f88f1d3a59
-Source1:	http://download.berlios.de/%{name}/%{name}-data-%{version}.tar.bz2
+Source1:	http://download.berlios.de/ppracer/%{name}-data-%{version}.tar.bz2
 # Source1-md5:	63ec7057ff684592a7aeddeb17d2f1a4
 Source2:	%{name}.desktop
 Source3:	%{name}.png
@@ -28,14 +28,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PP Racer lets you take on the role of Tux the Linux Penguin as he
 races down steep, snow-covered mountains. Enter cups and compete to
-win the title! Tux Racer includes a variety of options for gameplay,
+win the title! PP Racer includes a variety of options for gameplay,
 including the ability to race courses in fog, at night, and under high
 winds.
 
 %description -l pl
 PP Racer pozwala wcieliæ siê w rolê Tuksa, linuksowego Pingwina
 podczas zjazdu w dó³ pokrytych ¶niegiem gór. We¼ udzia³ w zawodach i
-zdob±d¼ tytu³! Tux Racer zawiera wiele opcji, miêdzy innymi mo¿liwo¶æ
+zdob±d¼ tytu³! PP Racer zawiera wiele opcji, miêdzy innymi mo¿liwo¶æ
 zje¿d¿ania we mgle, w nocy i podczas silnego wiatru.
 
 %description -l pt_BR
