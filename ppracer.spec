@@ -2,14 +2,14 @@ Summary:	Race down mountainous terrain with Tux!
 Summary(pl):	Zje¿d¿aj z Tuksem w górzystym terenie!
 Summary(pt_BR):	Corra montanha abaixo com o Tux!
 Name:		ppracer
-Version:	0.2
+Version:	0.2.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://download.berlios.de/ppracer/%{name}-%{version}-2.tar.bz2
-# Source0-md5:	c16e0ca393d43e663ee431f88f1d3a59
+Source0:	http://download.berlios.de/ppracer/%{name}-%{version}.tar.bz2
+# Source0-md5:	33be0cfb3d5256950df856f0b462e7c5
 Source1:	http://download.berlios.de/ppracer/%{name}-data-%{version}.tar.bz2
-# Source1-md5:	63ec7057ff684592a7aeddeb17d2f1a4
+# Source1-md5:	32dcd37850c0ea001949d81a77fea7bb
 Source2:	%{name}.desktop
 Source3:	%{name}.png
 URL:		http://racer.planetpenguin.de/
