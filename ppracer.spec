@@ -2,17 +2,15 @@ Summary:	Race down mountainous terrain with Tux!
 Summary(pl):	Zje¿d¿aj z Tuksem w górzystym terenie!
 Summary(pt_BR):	Corra montanha abaixo com o Tux!
 Name:		ppracer
-Version:	0.2.3
+Version:	0.3.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.berlios.de/ppracer/%{name}-%{version}.tar.bz2
-# Source0-md5:	0cd8e9731191d8c1a359c8d0f86d8f20
-Source1:	http://download.berlios.de/ppracer/%{name}-data-%{version}.tar.bz2
-# Source1-md5:	a0b3f40b2d875a5578a1605c6b6ecfed
-Source2:	%{name}.desktop
-Source3:	%{name}.png
-URL:		http://racer.planetpenguin.de/
+# Source0-md5:	fa80d5dc1e4b63edf05d27b2e86637ec
+Source1:	%{name}.desktop
+Source2:	%{name}.png
+URL:		http://projects.planetpenguin.de/racer/
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
 BuildRequires:	SDL_mixer-devel
@@ -43,7 +41,7 @@ O objetivo do PP Racer é diversão! Corra montanha abaixo tão rápido
 quanto possível e capture peixes para aumentar sua pontuação!
 
 %prep
-%setup -q -a1
+%setup -q 
 
 %build
 %{__aclocal}
@@ -61,10 +59,8 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/%{name},%{_desktopdir},%{_pixmapsdir}}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
-install %{SOURCE3} $RPM_BUILD_ROOT%{_pixmapsdir}
-
-cp -a %{name}-data-%{version}/* $RPM_BUILD_ROOT%{_datadir}/%{name}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
