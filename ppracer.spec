@@ -64,7 +64,7 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/%{name},%{_desktopdir},%{_pixmapsdir}}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE3} $RPM_BUILD_ROOT%{_pixmapsdir}
 
-mv -f %{name}-data-%{version}/* $RPM_BUILD_ROOT%{_datadir}/%{name}
+cp -a %{name}-data-%{version}/* $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
