@@ -1,6 +1,6 @@
 Summary:	Race down mountainous terrain with Tux!
-Summary(pl.UTF-8):   Zjeżdżaj z Tuksem w górzystym terenie!
-Summary(pt_BR.UTF-8):   Corra montanha abaixo com o Tux!
+Summary(pl.UTF-8):	Zjeżdżaj z Tuksem w górzystym terenie!
+Summary(pt_BR.UTF-8):	Corra montanha abaixo com o Tux!
 Name:		ppracer
 Version:	0.3.1
 Release:	1
